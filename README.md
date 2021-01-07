@@ -47,7 +47,7 @@ Instalación de grafana
 6. sudo systemctl enable grafana-server.service
 
 Visualizacion de la Base de Datos
-1. Acceder al link: 
+1. Acceder al link: http://127.0.0.1:3000/login
 
 Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
 
