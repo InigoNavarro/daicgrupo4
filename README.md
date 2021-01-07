@@ -18,7 +18,8 @@ Para que esta aplicación funcione correctamente será necesario tener lo siguie
 
 ## Descarga del programa
 
-Para descargar el programa podremos descargar el código en un zip accediendo a la url https://github.com/InigoNavarro/daicgrupo4.git y en code dandole a download zip
+Para descargar el programa podremos descargar el código en un zip accediendo a la url https://github.com/InigoNavarro/daicgrupo4.git y en code dandole a download zip.
+
 Otra manera es utilizar el comando git clone para clonar el repositorio: git clone https://github.com/InigoNavarro/daicgrupo4
 
 ## Puesta en marcha del programa 
@@ -45,8 +46,10 @@ Instalación de grafana
 5. sudo systemctl start grafana-server
 6. sudo systemctl enable grafana-server.service
 
-Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. --
-Para ejecutar el programa y valido sea False (no lleva mascarilla) -->  python Grupo4.py False --
+Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
+
+Para ejecutar el programa y valido sea False (no lleva mascarilla) -->  python Grupo4.py False 
+
 Para ejecutar el programa y valido sea True (lleva mascarilla)-->  python Grupo4.py True --
 
 ## Equipo
