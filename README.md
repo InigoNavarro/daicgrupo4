@@ -45,12 +45,12 @@ Instalación de grafana
 5. sudo systemctl start grafana-server
 6. sudo systemctl enable grafana-server.service
 
-Una vez tengamos los pasos anteriores realizado podremos ejecutar el program.
-Para ejecutar el programa y valido sea False (no lleva mascarilla) -->  python Grupo4.py False 
-Para ejecutar el programa y valido sea True (lleva mascarilla)-->  python Grupo4.py True
+Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. --
+Para ejecutar el programa y valido sea False (no lleva mascarilla) -->  python Grupo4.py False --
+Para ejecutar el programa y valido sea True (lleva mascarilla)-->  python Grupo4.py True --
 
 ## Equipo
 
-| **Iñigo** | **Unai** |
+| **Unai** | **Iñigo** |
 | :---: |:---:|
 <a href="http://github.com/unai1999" target="_blank">`github.com/unai1999`</a> | <a href="https://github.com/InigoNavarro" target="_blank">`github.com/InigoNavarro`</a> 
