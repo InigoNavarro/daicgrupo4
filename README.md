@@ -51,9 +51,9 @@ Visualizacion de la Base de Datos
 
 Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
 
-Para ejecutar el programa y valido sea False (no lleva mascarilla) -->  python Grupo4.py False 
+Para ejecutar el programa y valido sea False (no lleva mascarilla) --> sudo python Grupo4.py False 
 
-Para ejecutar el programa y valido sea True (lleva mascarilla)-->  python Grupo4.py True --
+Para ejecutar el programa y valido sea True (lleva mascarilla)--> sudo python Grupo4.py True
 
 ## Equipo
 
