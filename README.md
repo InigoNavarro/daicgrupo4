@@ -48,6 +48,8 @@ Instalación de grafana
 
 Visualizacion de la Base de Datos
 1. Acceder al link: http://127.0.0.1:3000/login
+2. Usuario: admin
+3. Contraseña: Grupo4_
 
 Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
 
