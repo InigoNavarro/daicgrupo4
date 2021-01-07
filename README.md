@@ -34,7 +34,7 @@ Para que los datos se suban a la base de datos de influxDB será necesario insta
 8. influx
 9. create database daicgrupo4
 10. use daicgrupo4
-11. create user grupo4 with password Grupo4_ with all privileges
+11. create user grupo4 with password 'Grupo4_' with all privileges
 12. grant all privileges on daicgrupo4 to grupo4
 13. exit
 
@@ -45,6 +45,9 @@ Instalación de grafana
 4. sudo systemctl unmask grafana-server.service
 5. sudo systemctl start grafana-server
 6. sudo systemctl enable grafana-server.service
+
+Visualizacion de la Base de Datos
+1. Acceder al link: 
 
 Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
 
