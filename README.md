@@ -77,6 +77,8 @@ Para ejecutar el programa y valido sea False (no lleva mascarilla) --> sudo pyth
 
 Para ejecutar el programa y valido sea True (lleva mascarilla)--> sudo python Grupo4.py True
 
+Video mostrando el sistema: https://drive.google.com/file/d/1XB16iJ5f__GhYLzcBxeb-ZZXpFt6ZBqq/view?usp=sharing
+
 ## Equipo
 
 | **Unai** | **Iñigo** |
