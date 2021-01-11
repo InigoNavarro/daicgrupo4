@@ -23,6 +23,22 @@ Para descargar el programa podremos descargar el código en un zip accediendo a 
 Otra manera es utilizar el comando git clone para clonar el repositorio: git clone https://github.com/InigoNavarro/daicgrupo4
 
 ## Puesta en marcha del programa 
+
+### Pasos a realizar en windows para ejecutar el detector de mascarillas
+1. Descargar la carpeta Mascarillas1
+2. Crearemos un entorno virtual y accderemos a este.
+3. Dentro del entorno virtual: pip install sklearn y pip install Pillow
+4. Ejecutar pip install -r requirements.txt dentro del entorno virtual para instalar librerias necesarias.
+5. python -m pip install –upgrade pip setuptools
+6. Como se encuentra el modelo creado solamente será necesario ejecutar el comando python detect_mask_video.py
+
+Una vez se ejequte el el detect_mask para salir de este pulsaremos la letra "q" y se nos creará un fichero. Este lo tendremos que mandar a la Raspberry para poder ejecutar el programa. Para ello se hará uso de ssh. 
+Comando: scp rutaOrigen usuario@equipo:rutaDestino
+
+usuario: usuario de la Raspberry
+equipo: dirección IP de la Raspberry
+
+### Pasos a ejecutar en la Raspberry
 Para que los datos se suban a la base de datos de influxDB será necesario instalarlo. Para ello será necesario seguir los siguientes pasos desde el cmd:
 1. wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
 2. source /etc/os-release
@@ -46,12 +62,16 @@ Instalación de grafana
 5. sudo systemctl start grafana-server
 6. sudo systemctl enable grafana-server.service
 
-Visualizacion de la Base de Datos
+Visualizacion de la Base de Datos (primera vez)
 1. Acceder al link: http://127.0.0.1:3000/login
 2. Usuario: admin
-3. Contraseña: Grupo4_
+3. Contraseña: admin
 
-Una vez tengamos los pasos anteriores realizado podremos ejecutar el program. 
+Una vez tengamos los pasos anteriores realizado podremos ejecutar el programa. 
+
+Para ejecutarlo bastará con introducir el comando python run.py. Para que este funcione será necesario que se le haya pasado el test.txt desde el otro ordenador.
+
+En caso de que queramos ejecutar el programa indicando nosotros la variable True o False se podrá hacer de las siguiente manera.
 
 Para ejecutar el programa y valido sea False (no lleva mascarilla) --> sudo python Grupo4.py False 
 
